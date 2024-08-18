@@ -107,7 +107,7 @@
             </intent-filter>
         </activity-alias>
 
-        <!-- Button settings (System category) -->
+        <!-- Button settings (Custom Settings category) -->
         <activity-alias
             android:name=".input.ButtonSettings"
             android:exported="true"
@@ -121,7 +121,7 @@
 
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.system" />
+                android:value="com.android.settings.category.ia.custom_settings" />
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_buttons" />
@@ -141,7 +141,7 @@
 
         <activity android:name=".gestures.KeyHandler" />
 
-        <!-- Profiles settings (System category) -->
+        <!-- Profiles settings (Custom Settings category) -->
         <activity-alias
             android:name=".profiles.ProfilesSettings"
             android:exported="true"
@@ -155,7 +155,7 @@
 
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.system" />
+                android:value="com.android.settings.category.ia.custom_settings" />
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_profiles" />
@@ -184,7 +184,7 @@
             </intent-filter>
         </activity-alias>
 
-        <!-- Status bar settings (System category) -->
+        <!-- Status bar settings (Custom Settings category) -->
         <activity-alias
             android:name=".statusbar.StatusBarSettings"
             android:exported="true"
@@ -198,7 +198,7 @@
 
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.system" />
+                android:value="com.android.settings.category.ia.custom_settings" />
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_statusbar" />
